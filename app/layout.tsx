@@ -12,7 +12,12 @@ const font = Nunito({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Airbnb clone",
   description: "Airbnb clone created by imran",
-  
+  icons: [
+    {
+      url: "/logo.svg",
+      href : "/logo.svg"
+    }
+  ]
 };
 
 export default async function RootLayout({
